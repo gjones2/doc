@@ -932,6 +932,8 @@ it's more of a guideline or model for Perl 6 implementations to follow.
 
 =head1 Stub
 
+A method stub is a piece of code that is used to simulate the behavior of existing code or as a placeholder for code that is not yet implemented.
+
 =head1 Subroutine
 
 A subroutine is like a L<#block>, but its L<#runtime> context is stacked.
