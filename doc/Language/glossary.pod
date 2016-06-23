@@ -1019,9 +1019,9 @@ languages:
 
 =head unspaces
 
-The L<unspace|#unspace> C<\> operator allows language extensibility by telling the compiler's lexer to ignore contiguous whitespace.
+An L<unspace|#unspace> allows language extensibility by telling the compiler's lexer to ignore contiguous whitespace. An unspace is a backslash followed by whitespace characters.
 
-    # An unspace operator can be used to line up postfix operators. 
+    # An unspace can be used to line up postfix operators. 
 
     %hash\  {$key}
     @array\ [$ix]
