@@ -615,7 +615,7 @@ channel that was intended for another channel, or for a private message.
 
 The object upon which a method is called, is referred to as the I<invocant>
 in Perl 6.  It is what C<self> refers to in a method.
-o
+
     say 'str'.uc;   # 'str' is the invocant of method uc
 
     class A { method show { self } }
